@@ -1,0 +1,111 @@
+cisco@workstation:~/Documents/Github/cafe_inventory$  /usr/bin/env /home/cisco/.vscode/extensions/redhat.java-1.59.2026110308-linux-x64/jre/25.0.5-linux-x86_64
+/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/cisco/.config/Code/User/workspaceStorage/7336e081e993dc719de7398fd51f3d96/redhat.java/jdt_ws
+/cafe_inventory_6b4c4b8/bin Main 
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 1
+Name: Milk
+Price: 12
+Quantity: 100
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 2
+1. Milk | Rs 12.0 | qty 100
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 3
+Total stock value: Rs 1200.0
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 4
+Average price: Rs 12.0
+Average price (rounded down): Rs 12
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 5
+Product number: 1
+Quantity to add: 20
+Product restocked successfully.
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 2
+1. Milk | Rs 12.0 | qty 120
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 6
+Product number: 1
+Product duplicated successfully.
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 2
+1. Milk | Rs 12.0 | qty 120
+2. Milk (copy) | Rs 12.0 | qty 120
+
+--- Campus Cafe Inventory ---
+1. Add product
+2. Display all products
+3. Total stock value
+4. Average price
+5. Restock a product
+6. Duplicate a product
+0. Exit
+Choose: 0
+Goodbye!
+Products created in total: 2
+cisco@workstation:~/Documents/Github/cafe_inventory$ 
