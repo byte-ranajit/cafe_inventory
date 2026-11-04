@@ -135,7 +135,7 @@ public class Main {
                 case 0:
 
                     System.out.println("Goodbye!");
-                    
+
                     break;
 
             }
@@ -143,6 +143,8 @@ public class Main {
         } while (choice != 0);
 
         System.out.println("Products created in total: " + Product.totalProducts);
+        
+        sc.close();
 
     }
 }
